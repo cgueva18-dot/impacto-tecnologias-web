@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La web en la vida cotidiana | La trama digital</title>
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+    <header>
+      <div class="wrap bar">
+        <a class="brand" href="index.html"
+          ><span class="mark" aria-hidden="true"></span>La trama digital</a
+        >
+        <nav aria-label="Navegación principal">
+          <a href="index.html" aria-current="page">Inicio</a>
+          <a href="pages/sociedad.html">Sociedad</a>
+          <a href="pages/negocios.html">Negocios</a>
+          <a href="pages/caso-local.html">Caso local</a>
+          <a href="pages/contacto.html">Contacto</a>
+        </nav>
+      </div>
+    </header>
+    <main id="contenido">
+      <section class="hero" aria-labelledby="titulo">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <p class="kicker">Tecnologías web · Sociedad y negocios</p>
+            <h1 id="titulo">La web en la<br><em>vida cotidiana.</em></h1>
+            <p>
+              Una clase que llega a casa. Un tejido que encuentra comprador. ¿Qué cambia cuando
+              una actividad pasa a la web?
+            </p>
+            <a class="button" href="#recorridos">Explorar los temas</a>
+          </div>
+          <img
+            src="images/red-global.png"
+            width="800"
+            height="540"
+            alt="Globo de líneas entrelazadas con nodos que representan conexiones web"
+         >
+        </div>
+      </section>
+      <section class="wrap block" id="recorridos">
+        <h2>Tres miradas a la web</h2>
+        <div class="cards">
+          <article class="card">
+            <img
+              src="images/aula.jpg"
+              alt="Estudiante que toma apuntes durante una clase en línea"
+           >
+            <p class="kicker">Sociedad</p>
+            <h3><a href="pages/sociedad.html">Aprender desde casa</a></h3>
+            <p>Qué facilita un aula virtual y qué ocurre cuando la conexión falla.</p>
+          </article>
+          <article class="card">
+            <img
+              src="images/pedidos.jpg"
+              alt="Emprendedora que prepara un paquete junto a su computadora"
+           >
+            <p class="kicker">Negocios</p>
+            <h3><a href="pages/negocios.html">Vender desde un taller</a></h3>
+            <p>Cómo se coordinan el catálogo, las existencias y la entrega.</p>
+          </article>
+          <article class="card">
+            <img
+              src="images/telar.jpg"
+              alt="Manos que entrelazan hilos de colores en un telar"
+           >
+            <p class="kicker">Caso local</p>
+            <h3><a href="pages/caso-local.html">Del telar al pedido</a></h3>
+            <p>Un ejemplo de Riobamba para seguir una compra paso a paso.</p>
+          </article>
+        </div>
+      </section>
+      <section class="wrap block feature">
+        <div>
+          <p class="kicker">Video · 32 segundos</p>
+          <h2>El viaje de un pedido</h2>
+          <p>
+            Cuatro escenas muestran cómo un taller artesanal pasa de exhibir sus tejidos a
+            preparar una entrega. El video se lee en pantalla.
+          </p>
+          <details>
+            <summary>Leer la versión en texto</summary>
+            <ol>
+              <li>Una artesana publica fotografías, medidas y precios.</li>
+              <li>Un cliente compara las opciones y pregunta por un color.</li>
+              <li>La artesana confirma las existencias y acuerda la entrega.</li>
+              <li>
+                El catálogo amplía el alcance del taller y exige mantener la información al
+                día.
+              </li>
+            </ol>
+          </details>
+        </div>
+        <video
+          controls
+          preload="metadata"
+          aria-label="El viaje de un pedido, video con texto en pantalla"
+        >
+          <source src="videos/del-telar-al-pedido.mp4" type="video/mp4">
+          <a href="videos/del-telar-al-pedido.mp4">Descargar el video</a>
+        </video>
+      </section>
+    </main>
+    <footer>
+      <div class="wrap foot">
+        <p>La trama digital · Tecnologías web</p>
+        <a href="#contenido">Volver al contenido</a>
+      </div>
+    </footer>
+  </body>
+</html>

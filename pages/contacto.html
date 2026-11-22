@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacto | La trama digital</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script defer src="../js/contacto.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+    <header>
+      <div class="wrap bar">
+        <a class="brand" href="../index.html"
+          ><span class="mark" aria-hidden="true"></span>La trama digital</a
+        >
+        <nav aria-label="Navegación principal">
+          <a href="../index.html">Inicio</a>
+          <a href="../pages/sociedad.html">Sociedad</a>
+          <a href="../pages/negocios.html">Negocios</a>
+          <a href="../pages/caso-local.html">Caso local</a>
+          <a href="../pages/contacto.html" aria-current="page">Contacto</a>
+        </nav>
+      </div>
+    </header>
+    <main id="contenido">
+      <div class="inner">
+        <div class="wrap">
+          <p class="kicker">Contacto</p>
+          <h1>Escribe una consulta</h1>
+          <p>
+            Comparte una pregunta sobre el aula virtual, el catálogo o el caso del taller. Este
+            formulario académico simula el envío en tu navegador.
+          </p>
+        </div>
+      </div>
+      <div class="wrap block contact">
+        <section>
+          <h2>Tu mensaje</h2>
+          <p>Todos los campos son obligatorios. Puedes usar datos ficticios para la prueba.</p>
+          <form id="contacto" method="post">
+            <label for="nombre">Nombre</label
+            ><input id="nombre" name="nombre" autocomplete="name" required maxlength="100">
+            <label for="correo">Correo electrónico</label
+            ><input
+              id="correo"
+              name="correo"
+              type="email"
+              autocomplete="email"
+              required
+              maxlength="254"
+           >
+            <label for="asunto">Asunto</label
+            ><input id="asunto" name="asunto" required maxlength="140">
+            <label for="mensaje">Mensaje</label
+            ><textarea
+              id="mensaje"
+              name="mensaje"
+              rows="4"
+              required
+              maxlength="2000"
+            ></textarea>
+            <button type="submit" disabled>Enviar mensaje de prueba</button>
+          </form>
+          <noscript
+            ><p>Activa JavaScript en tu navegador para probar el envío local.</p></noscript
+          >
+          <p id="resultado" role="status" tabindex="-1"></p>
+        </section>
+        <aside>
+          <h2>¿Sobre qué escribir?</h2>
+          <p>
+            Piensa en alguien que usa el celular con pocos datos. ¿Qué cambio harías en el
+            catálogo para que pueda elegir una bufanda con mayor facilidad?
+          </p>
+        </aside>
+      </div>
+    </main>
+    <footer>
+      <div class="wrap foot">
+        <p>La trama digital · Tecnologías web</p>
+        <a href="#contenido">Volver al contenido</a>
+      </div>
+    </footer>
+  </body>
+</html>
